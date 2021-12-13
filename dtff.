@@ -1,0 +1,113 @@
+\documentclass[11pt]{beamer}
+
+\usetheme{Berkeley}
+
+% Adding a counter in the bottom of the slide
+\setbeamertemplate{page number in head/foot}[framenumber]
+\setbeamertemplate{navigation symbols}{\footnotesize\usebeamertemplate{page number in head/foot}}
+
+\usepackage{graphicx}
+
+\begin{document}
+
+\title{Big Pharma Analysis}
+\author{Nils Frutiger, Antoine Geiller, Greta Benetazzo}
+\date{December 15, 2021}
+
+% ---------------------------------------------------------------------------
+\begin{frame}
+\titlepage
+\end{frame}
+% --------------------------------------------------------------------------
+\section{Introduction}
+% --------------------------------------------------------------------------
+\begin{frame}
+\subsection{Team}
+\frametitle{Team}
+
+\textbf{Nils Frutiger} \\
+Matr.
+
+\vspace{5mm}
+
+\textbf{Antoine Geiller} \\
+Matr.
+
+\vspace{3mm}
+
+\textbf{Greta Benetazzo} \\
+Matr. 20-741-104
+
+\end{frame}
+% --------------------------------------------------------------------------
+\begin{frame}
+\subsection{Data}
+\frametitle{Data}
+
+Data on Big Pharma taken from Yahoo Finance
+
+\end{frame}
+% ----------------------------------------------------------------------------
+\section{Analysis}
+% --------------------------------------------------------------------------
+\begin{frame}
+\subsection{Big Pharma Stock Trends}
+\frametitle{Big Pharma Stock Trends}
+
+\begin{center}
+\includegraphics[height=8cm]{performance.png}
+\end{center}
+
+text text text
+
+
+\end{frame}
+% ----------------------------------------------------------------------------
+\begin{frame}
+\subsection{Title}
+\frametitle{Title}
+
+\begin{center}
+\includegraphics[height=8cm]{price.png}
+\end{center}
+
+text text text
+
+\end{frame}
+% ----------------------------------------------------------------------------
+\begin{frame}
+\subsection{Title}
+\frametitle{Title}
+
+\begin{center}
+\includegraphics[height=8cm]{weights.png}
+\end{center}
+
+text text text
+
+\end{frame}
+% ----------------------------------------------------------------------------
+\section{Results}
+% --------------------------------------------------------------------------
+\begin{frame}
+\subsection{Future Research}
+\frametitle{Future Research}
+
+text text text
+
+\end{frame}
+% ----------------------------------------------------------------------------
+\begin{frame}
+\subsection{Conclusion}
+\frametitle{Conclusion}
+
+Thanks for your attention
+
+\vspace{3cm}
+
+Any Questions?
+
+\end{frame}
+% ----------------------------------------------------------------------------
+
+\end{document}
